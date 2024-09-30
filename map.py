@@ -15,3 +15,11 @@ Output:
 angka = [4, 2, 1, 3, 5]
 
 # lanjutkan code dibawah ini
+# angka.sort()
+
+for i in angka:
+    for j in range(len(angka)-1):
+        if angka[j] > angka[j+1]:
+            angka[j], angka[j+1] = angka[j+1], angka[j]
+
+print(angka)

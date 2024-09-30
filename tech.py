@@ -15,3 +15,8 @@ C C
 tech = ['T', 'E', 'C', 'H', 'N', 'O', 'C', 'L', 'U', 'B']
 
 # lanjutkan code dibawah ini
+
+for i in tech:
+    if i == 'C':
+        print(i, end=' ')
+        
